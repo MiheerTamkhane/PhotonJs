@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+#logo {
+  margin: 3rem;
+  text-decoration: none;
+  font-size: 5rem;
+  /* color: black; */
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(72, 91, 197);
+  text-shadow: 2px 2px 5px #a3a3a3;
+}
+.search-form {
+  padding: 1.5rem;
+  display: flex;
+}
+.search-form input {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(72, 91, 197);
+}
+.search-form button {
+  margin-top: 2rem;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: rgb(72, 91, 197);
+  color: white;
+  cursor: pointer;
+}
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 0.5rem 0rem;
+}
+.gallery-info a {
+  color: gray;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 0rem;
+  margin: auto;
+  width: 80%;
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  padding: 1rem 3rem;
+  background: rgb(72, 91, 197);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0rem;
+}
